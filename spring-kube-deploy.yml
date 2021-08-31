@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: "abhilashnarayan/spring-boot-docker:latest"
+        image: "abhilashnarayan/spring-boot-docker.jar:latest"
         ports:
           - containerPort: 3000
 ---
